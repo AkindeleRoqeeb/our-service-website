@@ -1,0 +1,191 @@
+.icon{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* margin-left: 20px; */
+    /* background-color: antiquewhite; */
+    /* float: left; */
+}
+
+
+
+.logo {
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+    /* top: 200px; */
+    font-weight: bold;
+    transition: 0,4s ease-in-out;
+}
+
+ul{
+    display: flex;
+    padding: 10px;
+    /* margin: 20px; */
+}
+
+.manu {
+    margin-left: 30px;
+    padding: 5px;
+    /* margin-left: 10px; */
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.manu > ul > li {
+    list-style: none;
+    padding: 5px;
+}
+
+.manu ul li a{
+    text-decoration: none;
+    /* text-align:justify; */
+}
+
+h2{
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+.background{
+    background: url(line.png);
+    opacity: .6;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    right: 0;
+    /* width: 100%; */
+}
+
+#input-cn{
+    transition: 0.4s ease;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    /* border-radius: 10%; */
+    padding: 5px;
+    border-bottom-color: black;
+}
+
+
+
+::placeholder{
+    color: black;
+    margin-bottom: 10px;
+    height: 100px;
+    /* padding: 10px; */
+}
+
+.search{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    height: 25px;
+}
+
+.btn{
+    background-color: blue;
+    margin-left: 3px;
+    border-radius: 7px;
+    width: 100px;
+}
+
+button {
+    height: 25px;
+}
+
+.srch {
+    border-radius: 5px;
+    width: 250px;
+}
+
+.btn:hover{
+    color: aqua;
+    cursor: alias;
+}
+
+.search {
+    margin-left: 95px;
+    margin-bottom: 90px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+
+/* .cn {
+    margin-top: 200px;
+    margin-left: 100px;
+} */
+
+.icon-bt {
+    margin-top: 20px;
+    /* width: 200px; */
+}
+
+
+
+.icon-btn {
+    padding: 5px;
+}
+
+.btnn {
+    background-color: rgb(22, 228, 228);
+    border-radius: 10px;
+    color: black;
+    width: 190px;
+    margin-top: 10px;
+}
+
+.btnn > a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-btn:hover{
+    color: rgb(8, 8, 244);
+}
+
+.cn a:hover{
+    color: rgb(12, 4, 234);
+}
+
+a:hover{
+    color: rgb(10, 14, 247);
+}
+
+.btnn a {
+    font-style:oblique;
+}
+
+input {
+    background-color: transparent;
+    color: black;
+    font-style: italic;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
